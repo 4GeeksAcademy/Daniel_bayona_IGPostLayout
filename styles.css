@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+}
+
+.post{
+    background-color: white;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 620px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.post-header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.post-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.post-icons svg:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+}
+
+.post-body p{
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.size{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.size-postIcons{
+    height: 30px;
+    width: 30px;
+}
